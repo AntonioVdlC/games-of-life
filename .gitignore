@@ -16,3 +16,11 @@ build/
 
 # Environment Variables
 .env
+
+# WASM Rust
+/target
+**/*.rs.bk
+Cargo.lock
+bin/
+pkg/
+wasm-pack.log
