@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-app = Flask(__name__, template_folder="views", static_folder="www/dist")
+app = Flask(__name__, template_folder="views")
 
 # App Routes
 @app.route("/")
